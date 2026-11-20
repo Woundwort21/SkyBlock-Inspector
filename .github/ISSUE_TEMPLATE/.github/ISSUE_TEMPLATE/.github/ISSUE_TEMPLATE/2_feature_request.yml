@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest a focused improvement for SkyBlock Inspector.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SkyBlock Inspector aims to remain lightweight, client-side, and modpack-friendly. Thanks for sharing an idea!
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of improvement
+      options:
+        - Garden / farming
+        - Mining / gemstones
+        - NPCs / entities
+        - HUD appearance / positioning
+        - Settings / keybinds
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like added or changed?
+      placeholder: "Describe the feature..."
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: How would it help?
+      description: Explain the use case in Hypixel SkyBlock.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or screenshots (optional)
+      description: Show how you imagine the feature working.
+    validations:
+      required: false
