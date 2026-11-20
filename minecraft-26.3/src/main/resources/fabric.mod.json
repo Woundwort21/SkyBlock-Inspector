@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "skyblockinspector",
+  "version": "${version}",
+  "name": "SkyBlock Inspector",
+  "description": "A lightweight, client-side Hypixel SkyBlock information HUD for crops, mining and NPCs.",
+  "authors": [
+    "Woundwort"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.skyblockinspector.SkyBlockInspectorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "icon": "assets/skyblockinspector/icon.png",
+  "contact": {}
+}

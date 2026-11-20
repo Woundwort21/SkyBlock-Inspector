@@ -1,0 +1,1 @@
+Minecraft 26.2 build target. Requires Fabric API 0.161.0+26.2. Source API compatibility has NOT yet been verified by compilation. Build this project separately; do not use 26.3 JAR.
